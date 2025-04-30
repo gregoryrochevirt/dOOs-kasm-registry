@@ -1,0 +1,39 @@
+{
+  "description": "Discord.",
+  "docker_registry": "https://gitea.gregoryroche.fr",
+  "image_src": "discord.png",
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 4,
+  "memory": 5000,
+  "require_gpu": false,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "discord",
+    "environment": {
+      "SYSDARKTHEME": "true",
+      "SYSFILES": "true"
+    }
+  },
+  "categories": [
+    "social network",
+    "doos"
+  ],
+  "friendly_name": "discord",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "gitea.gregoryroche.fr/greg/discord:latest",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    }
+  ]
+}

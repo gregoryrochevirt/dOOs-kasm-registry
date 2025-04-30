@@ -1,0 +1,46 @@
+{
+  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "docker_registry": "https://gitea.gregoryroche.fr",
+  "image_src": "chromium.png",
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 4,
+  "memory": 5000,
+  "require_gpu": false,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "chromium",
+    "environment": {
+      "SYSDARKTHEME": "true",
+      "SYSFILES":"true"
+    }
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "browser"
+  ],
+  "friendly_name": "Chromium",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "gitea.gregoryroche.fr/greg/chromium:latest",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    }
+  ]
+}

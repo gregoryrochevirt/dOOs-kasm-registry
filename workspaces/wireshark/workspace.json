@@ -1,0 +1,45 @@
+{
+  "description": "wireshark",
+  "docker_registry": "https://gitea.gregoryroche.fr",
+  "image_src": "wireshark.png",
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 4,
+  "memory": 5000,
+  "require_gpu": false,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "wireshark",
+    "environment": {
+      "SYSDARKTHEME": "true",
+      "SYSFILES":"true"
+    }
+  },
+  "exec_config": {
+    "first_launch": {
+      "user": "root",
+      "cmd": "bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+    }
+  },
+  "categories": [
+    "network",
+    "tools"
+  ],
+  "friendly_name": "wireshark",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "gitea.gregoryroche.fr/greg/wireshark:latest",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Terminal.",
+  "docker_registry": "https://gitea.gregoryroche.fr",
+  "image_src": "terminator.svg",
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 4,
+  "memory": 5000,
+  "require_gpu": false,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "terminator",
+    "environment": {
+      "SYSDARKTHEME": "true",
+      "SYSFILES": "true"
+    }
+  },
+  "categories": [
+    "tools",
+    "remote",
+    "greg"
+  ],
+  "friendly_name": "Terminator",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "gitea.gregoryroche.fr/greg/terminator:latest",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    }
+  ]
+}
