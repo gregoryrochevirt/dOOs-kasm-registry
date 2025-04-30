@@ -1,0 +1,62 @@
+{
+  "description": "Foundry Nuke.",
+  "docker_registry": "https://gitea.gregoryroche.fr",
+  "image_src": "nuke.png",
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 4,
+  "memory": 5000,
+  "require_gpu": false,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "nuke",
+    "environment": {
+      "SYSDARKTHEME": "true",
+      "SYSFILES":"true",
+      "APPSTART": "",
+      "RLMSERVER": "172.20.0.2",
+      "RLMPORT": "5053"
+    }
+  },
+  "categories": [
+    "3d",
+    "nuke",
+    "foundry"
+  ],
+  "friendly_name": "Nuke",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "gitea.gregoryroche.fr/greg/nuke:latest",
+      "uncompressed_size_mb": 36615,
+      "available_tags": [
+        "develop",
+        "11.3.6",
+        "12.2.11",
+        "13.2.9",
+        "14.1.6",
+        "15.2.1",
+        "16.0.1"
+      ]
+    },
+    {
+      "version": "1.17.x",
+      "image": "gitea.gregoryroche.fr/greg/nuke:latest",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop",
+        "11.3.6",
+        "12.2.11",
+        "13.2.9",
+        "14.1.6",
+        "15.2.1",
+        "16.0.1"
+      ]
+    }
+  ]
+}

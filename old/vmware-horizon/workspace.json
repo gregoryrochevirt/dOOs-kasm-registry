@@ -1,0 +1,49 @@
+{
+  "description": "VMware Horizon Client",
+  "docker_registry": "https://gitea.gregoryroche.fr",
+  "image_src": "vmware-horizon.png",
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 4,
+  "memory": 5000,
+  "require_gpu": false,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "vmware-horizon",
+    "environment": {
+      "SYSDARKTHEME": "true",
+      "SYSFILES":"true"
+    }
+  },
+  "categories": [
+    "remote",
+    "vmware",
+    "doos"
+  ],
+  "friendly_name": "Horizon",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "gitea.gregoryroche.fr/greg/vmware-horizon:latest",
+      "uncompressed_size_mb": 4496,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    },
+    {
+      "version": "1.17.x",
+      "image": "gitea.gregoryroche.fr/greg/vmware-horizon:latest",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    }
+  ]
+}

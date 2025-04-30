@@ -1,0 +1,53 @@
+{
+  "description": "Mikrotik Winbox 4.",
+  "docker_registry": "https://gitea.gregoryroche.fr",
+  "image_src": "Winbox.png",
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 4,
+  "memory": 5000,
+  "require_gpu": false,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "winbox",
+    "environment": {
+      "SYSDARKTHEME": "true",
+      "SYSFILES":"true",
+      "CONNECTTO": "192.168.0.111:12345",
+      "USERMANE": "changeme",
+      "PASSWORD": "changeme"
+    }
+  },
+  "categories": [
+    "tools",
+    "network",
+    "doos"
+  ],
+  "friendly_name": "Winbox",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "gitea.gregoryroche.fr/greg/winbox:latest",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+        "develop",
+        "4.0b18",
+        "latest"
+      ]
+    },
+    {
+      "version": "1.17.x",
+      "image": "gitea.gregoryroche.fr/greg/winbox:latest",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    }
+  ]
+}
