@@ -1,6 +1,6 @@
 {
   "description": "wine",
-  "docker_registry": "https://gitea.gregoryroche.fr",
+  "docker_registry": "https://gitea.vstudy.eu",
   "image_src": "wine.png",
   "enabled": true,
   "image_type": "Container",
@@ -34,7 +34,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.gregoryroche.fr/greg/wine:latest",
+      "image": "gitea.vstudy.eu/greg/wine:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",

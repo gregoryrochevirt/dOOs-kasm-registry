@@ -1,6 +1,6 @@
 {
   "description": "Rustdesk.",
-  "docker_registry": "https://gitea.gregoryroche.fr",
+  "docker_registry": "https://gitea.vstudy.eu",
   "image_src": "rustdesk.png",
   "enabled": true,
   "image_type": "Container",
@@ -27,7 +27,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.gregoryroche.fr/greg/rustdesk:latest",
+      "image": "gitea.vstudy.eu/greg/rustdesk:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",

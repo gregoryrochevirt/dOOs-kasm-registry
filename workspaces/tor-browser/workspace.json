@@ -1,6 +1,6 @@
 {
   "description": "tor-browser.",
-  "docker_registry": "https://gitea.gregoryroche.fr",
+  "docker_registry": "https://gitea.vstudy.eu",
   "image_src": "tor-browser.png",
   "enabled": true,
   "image_type": "Container",
@@ -35,7 +35,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.gregoryroche.fr/greg/tor-browser:latest",
+      "image": "gitea.vstudy.eu/greg/tor-browser:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",

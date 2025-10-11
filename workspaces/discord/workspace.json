@@ -1,6 +1,6 @@
 {
   "description": "Discord.",
-  "docker_registry": "https://gitea.gregoryroche.fr",
+  "docker_registry": "https://gitea.vstudy.eu",
   "image_src": "discord.png",
   "enabled": true,
   "image_type": "Container",
@@ -28,7 +28,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.gregoryroche.fr/greg/discord:latest",
+      "image": "gitea.vstudy.eu/greg/discord:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",

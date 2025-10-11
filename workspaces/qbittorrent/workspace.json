@@ -1,6 +1,6 @@
 {
   "description": "qbittorrent.",
-  "docker_registry": "https://gitea.gregoryroche.fr",
+  "docker_registry": "https://gitea.vstudy.eu",
   "image_src": "qbittorrent.png",
   "enabled": true,
   "image_type": "Container",
@@ -28,7 +28,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.gregoryroche.fr/greg/qbittorrent:latest",
+      "image": "gitea.vstudy.eu/greg/qbittorrent:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",

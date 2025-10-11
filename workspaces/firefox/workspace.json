@@ -1,6 +1,6 @@
 {
   "description": "firefox.",
-  "docker_registry": "https://gitea.gregoryroche.fr",
+  "docker_registry": "https://gitea.vstudy.eu",
   "image_src": "firefox.png",
   "enabled": true,
   "image_type": "Container",
@@ -36,7 +36,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.gregoryroche.fr/greg/firefox:latest",
+      "image": "gitea.vstudy.eu/greg/firefox:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",
