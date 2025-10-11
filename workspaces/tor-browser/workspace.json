@@ -1,7 +1,7 @@
 {
-  "description": "tor-browser.",
+  "description": "torbrowser.",
   "docker_registry": "https://gitea.vstudy.eu",
-  "image_src": "tor-browser.png",
+  "image_src": "torbrowser.png",
   "enabled": true,
   "image_type": "Container",
   "cores": 4,
@@ -10,7 +10,7 @@
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "run_config": {
-    "hostname": "tor-browser",
+    "hostname": "torbrowser",
     "environment": {
       "SYSDARKTHEME": "true",
       "SYSFILES":"true"
@@ -27,7 +27,7 @@
   "categories": [
     "browser"
   ],
-  "friendly_name": "tor-browser",
+  "friendly_name": "torbrowser",
   "architecture": [
     "amd64",
     "arm64"
@@ -35,7 +35,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.vstudy.eu/greg/tor-browser:latest",
+      "image": "gitea.vstudy.eu/greg/torbrowser:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",
