@@ -1,0 +1,39 @@
+{
+  "description": "filezilla",
+  "docker_registry": "https://gitea.vstudy.eu",
+  "image_src": "filezilla.png",
+  "enabled": true,
+  "image_type": "Container",
+  "cores": 4,
+  "memory": 5000,
+  "require_gpu": false,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "run_config": {
+    "hostname": "filezilla",
+    "environment": {
+      "SYSDARKTHEME": "true",
+      "SYSFILES":"true"
+    }
+  },
+  "categories": [
+    "network",
+    "tools"
+  ],
+  "friendly_name": "filezilla",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "gitea.vstudy.eu/greg/filezilla:latest",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    }
+  ]
+}
