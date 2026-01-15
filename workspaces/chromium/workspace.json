@@ -1,6 +1,6 @@
 {
   "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
-  "docker_registry": "https://gitea.vstudy.eu",
+  "docker_registry": "https://harbor.vstudy.eu",
   "image_src": "chromium.png",
   "enabled": true,
   "image_type": "Container",
@@ -35,7 +35,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.vstudy.eu/greg/chromium:latest",
+      "image": "harbor.vstudy.eu/kasm_workspace/chromium:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",

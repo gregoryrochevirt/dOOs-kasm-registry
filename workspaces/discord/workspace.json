@@ -1,6 +1,6 @@
 {
   "description": "Discord.",
-  "docker_registry": "https://gitea.vstudy.eu",
+  "docker_registry": "https://harbor.vstudy.eu",
   "image_src": "discord.png",
   "enabled": true,
   "image_type": "Container",
@@ -28,7 +28,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.vstudy.eu/greg/discord:latest",
+      "image": "harbor.vstudy.eu/kasm_workspace/discord:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",

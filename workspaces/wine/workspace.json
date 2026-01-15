@@ -1,6 +1,6 @@
 {
   "description": "wine",
-  "docker_registry": "https://gitea.vstudy.eu",
+  "docker_registry": "https://harbor.vstudy.eu",
   "image_src": "wine.png",
   "enabled": true,
   "image_type": "Container",
@@ -34,7 +34,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.vstudy.eu/greg/wine:latest",
+      "image": "harbor.vstudy.eu/kasm_workspace/wine:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",

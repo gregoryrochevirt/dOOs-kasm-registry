@@ -1,6 +1,6 @@
 {
   "description": "Rustdesk.",
-  "docker_registry": "https://gitea.vstudy.eu",
+  "docker_registry": "https://harbor.vstudy.eu",
   "image_src": "rustdesk.png",
   "enabled": true,
   "image_type": "Container",
@@ -27,7 +27,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.vstudy.eu/greg/rustdesk:latest",
+      "image": "harbor.vstudy.eu/kasm_workspace/rustdesk:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",
