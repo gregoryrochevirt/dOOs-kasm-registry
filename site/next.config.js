@@ -11,7 +11,7 @@ const nextConfig = {
     contactUrl: 'https://github.com/gregoryrochevirt/dOOs-kasm-registry/issues',
   },
   reactStrictMode: true,
-  basePath: '/dOOs-kasm-registry/1.0',
+  basePath: '/dOOs-kasm-registry/1.1',
   trailingSlash: true,
   images: {
     unoptimized: true,
