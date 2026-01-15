@@ -28,7 +28,7 @@
   ],
   "compatibility": [
     {
-      "version": "1.17.x",
+      "version": "1.18.x",
       "image": "harbor.vstudy.eu/library/photoshop:2021",
       "uncompressed_size_mb": 0,
       "available_tags": [

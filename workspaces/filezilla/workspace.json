@@ -27,7 +27,7 @@
   ],
   "compatibility": [
     {
-      "version": "1.17.x",
+      "version": "1.18.x",
       "image": "gitea.vstudy.eu/greg/filezilla:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
