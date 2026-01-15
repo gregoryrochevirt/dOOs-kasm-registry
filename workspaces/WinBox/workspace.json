@@ -1,6 +1,6 @@
 {
   "description": "Mikrotik Winbox 4.",
-  "docker_registry": "https://gitea.vstudy.eu",
+  "docker_registry": "https://harbor.vstudy.eu",
   "image_src": "Winbox.png",
   "enabled": true,
   "image_type": "Container",
@@ -32,7 +32,7 @@
   "compatibility": [
     {
       "version": "1.17.x",
-      "image": "gitea.vstudy.eu/greg/winbox:latest",
+      "image": "harbor.vstudy.eu/kasm_workspace/winbox:latest",
       "uncompressed_size_mb": 0,
       "available_tags": [
         "develop",
